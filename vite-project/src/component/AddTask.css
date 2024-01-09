@@ -1,0 +1,77 @@
+/* AddTask.css */
+
+.task-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #333;
+    color: #eee;
+  }
+  
+  .task-header {
+    text-align: center;
+    color: #ccc;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-input {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #eee;
+    border: 1px solid #555;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  .clear-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .clear-button:hover {
+    background-color: #c0392b;
+  }
